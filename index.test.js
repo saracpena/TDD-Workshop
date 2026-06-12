@@ -124,7 +124,7 @@ describe("isMultiple35", function () {
   });
 });
 
-describe.only("shareLastDigit", function () {
+describe("shareLastDigit", function () {
   it("is true when both are one-digit and equal", function () {
     expect(shareLastDigit(7, 7)).toBe(true);
   });
@@ -145,7 +145,7 @@ describe.only("shareLastDigit", function () {
   });
 });
 
-describe("isColdAndHot", function () {
+describe.only("isColdAndHot", function () {
   it("is true when first is cold and second is hot", function () {
     expect(isColdAndHot(-5, 120)).toBe(true);
   });
