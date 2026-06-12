@@ -145,7 +145,7 @@ describe("shareLastDigit", function () {
   });
 });
 
-describe.only("isColdAndHot", function () {
+describe("isColdAndHot", function () {
   it("is true when first is cold and second is hot", function () {
     expect(isColdAndHot(-5, 120)).toBe(true);
   });
@@ -175,7 +175,7 @@ describe.only("isColdAndHot", function () {
   });
 });
 
-describe("makeABBA", function () {
+describe.only("makeABBA", function () {
   it("builds ABBA from two normal words", function () {
     expect(makeABBA("Hi", "Bye")).toBe("HiByeByeHi");
     expect(makeABBA("Yo", "Alice")).toBe("YoAliceAliceYo");
