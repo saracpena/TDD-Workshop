@@ -64,7 +64,7 @@ describe("makes10", function () {
   });
 });
 
-describe.only("near100", function () {
+describe("near100", function () {
   it("is true well inside distance", function () {
     expect(near100(95, 10)).toBe(true);
     expect(near100(105, 10)).toBe(true);
@@ -92,7 +92,7 @@ describe.only("near100", function () {
   });
 });
 
-describe("isMultiple35", function () {
+describe.only("isMultiple35", function () {
   it("is true for a multiple of 3 only", function () {
     expect(isMultiple35(3)).toBe(true);
     expect(isMultiple35(9)).toBe(true);
