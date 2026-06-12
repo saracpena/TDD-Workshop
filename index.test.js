@@ -39,7 +39,7 @@ describe("sumDouble", function () {
   });
 });
 
-describe.only("makes10", function () {
+describe("makes10", function () {
   it("is true when first number is 10", function () {
     expect(makes10(10, 0)).toBe(true);
   });
@@ -64,7 +64,7 @@ describe.only("makes10", function () {
   });
 });
 
-describe("near100", function () {
+describe.only("near100", function () {
   it("is true well inside distance", function () {
     expect(near100(95, 10)).toBe(true);
     expect(near100(105, 10)).toBe(true);
